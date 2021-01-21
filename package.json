@@ -15,7 +15,7 @@
   },
   "author": "Mike van Rossum <mike@mvr.me>",
   "dependencies": {
-    "async": "2.1.2",
+    "async": "2.6.3",
     "bitexthai": "^0.1.0",
     "bitfinex-api-node": "0.2.9",
     "bitstamp": "1.0.x",
