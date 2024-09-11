@@ -1,0 +1,37 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - okcoin-china > request > hawk > hoek:
+        patched: '2024-09-11T02:25:54.891Z'
+        id: 'npm:hoek:20180212'
+        path: okcoin-china > request > hawk > hoek
+    - okcoin-china > request > hawk > boom > hoek:
+        patched: '2024-09-11T02:25:54.891Z'
+        id: 'npm:hoek:20180212'
+        path: okcoin-china > request > hawk > boom > hoek
+    - okcoin-china > request > hawk > sntp > hoek:
+        patched: '2024-09-11T02:25:54.891Z'
+        id: 'npm:hoek:20180212'
+        path: okcoin-china > request > hawk > sntp > hoek
+    - okcoin-china > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-11T02:25:54.891Z'
+        id: 'npm:hoek:20180212'
+        path: okcoin-china > request > hawk > cryptiles > boom > hoek
+  'npm:request:20160119':
+    - okcoin-china > request:
+        patched: '2024-09-11T02:25:54.891Z'
+        id: 'npm:request:20160119'
+        path: okcoin-china > request
+  'npm:tough-cookie:20170905':
+    - okcoin-china > request > tough-cookie:
+        patched: '2024-09-11T02:25:54.891Z'
+        id: 'npm:tough-cookie:20170905'
+        path: okcoin-china > request > tough-cookie
+  'npm:tunnel-agent:20170305':
+    - okcoin-china > request > tunnel-agent:
+        patched: '2024-09-11T02:25:54.891Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: okcoin-china > request > tunnel-agent
